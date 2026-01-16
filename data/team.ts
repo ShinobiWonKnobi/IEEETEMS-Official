@@ -121,3 +121,25 @@ export const TEAM_MEMBERS: TeamMember[] = [
         size: 'small'
     }
 ];
+
+export interface Advisor {
+    id: number;
+    name: string;
+    role: string;
+    image: string;
+    bio: string;
+    socials: {
+        linkedin?: string;
+    };
+}
+
+export const ADVISORS: Advisor[] = [
+    {
+        id: 1,
+        name: 'Abishai Gosula',
+        role: 'Founding Advisor',
+        image: '/assets/members/ABISHAI GOSULA/Abishai_new.jpeg',
+        bio: 'An integral pillar in the founding of IEEE TEMS SRM, Abishai played a pivotal role in shaping the chapter\'s vision and laying the groundwork for its success. His unwavering dedication and strategic guidance were instrumental during the initial phase, helping to establish a strong foundation for innovation and leadership that continues to inspire the chapter today.',
+        socials: { linkedin: 'https://www.linkedin.com/in/abishai-george-e-gosula/' }
+    }
+];
