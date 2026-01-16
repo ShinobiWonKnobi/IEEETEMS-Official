@@ -2,7 +2,6 @@
 
 The official web portal for the **IEEE Technology and Engineering Management Society (TEMS)** Student Chapter at SRM Institute of Science and Technology. This platform serves as a hub for our events, technical projects, team information, and student engagement.
 
-![IEEE TEMS Banner](https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6)
 
 ## 🚀 Features
 
