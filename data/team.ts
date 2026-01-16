@@ -17,7 +17,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
         image: '/assets/members/AMAEYA SESHA NARAYANAN/IMG-20260115-WA0071.jpg',
         bio: 'Supports the Chairman and assists in leading the chapter.',
         socials: { linkedin: 'https://www.linkedin.com/in/amaeya-sesha-narayanan-57490726a/' },
-        size: 'medium'
+        size: 'medium',
+        imagePosition: 'center 20%'
     },
     {
         id: 3,
@@ -30,7 +31,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     },
     {
         id: 4,
-        name: 'Prakhar Srivastav',
+        name: 'Prakhar Srivastava',
         role: 'Treasurer',
         image: '/assets/members/PRAKHAR SRIVASTAV/IMG-20260115-WA0068.jpg',
         bio: "Manages the chapter's finances and budget.",
@@ -43,7 +44,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
         role: 'Technical Lead',
         image: '/assets/members/TAMIL ADHAVAN/IMG-20260115-WA0066.jpg',
         bio: 'Oversees technical projects and activities.',
-        socials: { linkedin: 'https://www.linkedin.com/in/tamiladhavan/', github: '#' },
+        socials: { linkedin: 'https://www.linkedin.com/in/tamiladhavan/' },
         size: 'medium'
     },
     {
@@ -76,11 +77,21 @@ export const TEAM_MEMBERS: TeamMember[] = [
     {
         id: 9,
         name: 'Akshaya KV',
-        role: 'Public Relations',
+        role: 'Public Relations Lead',
         image: '/assets/members/AKSHAYA KV/IMG-20260115-WA0075.jpg',
         bio: 'Manages communication and outreach for the chapter.',
         socials: { linkedin: 'https://www.linkedin.com/in/akshaya-kv-a30877348/' },
         size: 'small'
+    },
+    {
+        id: 13,
+        name: 'Prashanth Reddy',
+        role: 'Social Media Lead',
+        image: '/assets/members/PRASANTH REDDY/IMG-20260115-WA0080.jpg',
+        bio: 'Manages the chapter\'s social media presence and online engagement.',
+        socials: { linkedin: 'https://www.linkedin.com/in/prasanth-reddy-7163a0324/' },
+        size: 'small',
+        imagePosition: 'center 25%'
     },
     {
         id: 10,
@@ -94,10 +105,19 @@ export const TEAM_MEMBERS: TeamMember[] = [
     {
         id: 11,
         name: 'Ayisha Hemni K',
-        role: 'Creative Head',
+        role: 'Creative Lead',
         image: '/assets/members/AYISHA HEMINI/Ayisha_Hemini.jpeg',
         bio: 'Leads creative design and branding initiatives for the chapter.',
         socials: { linkedin: 'https://www.linkedin.com/in/ayisha-hemni-k-952a57287/' },
+        size: 'small'
+    },
+    {
+        id: 12,
+        name: 'Aryan Gupta',
+        role: 'Sponsorship Lead',
+        image: '/assets/members/ARYAN GUPTA/IMG-20260115-WA0079.jpg',
+        bio: 'Secures sponsorships and funding for chapter events and initiatives.',
+        socials: { linkedin: '#' },
         size: 'small'
     }
 ];

@@ -38,4 +38,5 @@ export interface TeamMember {
     twitter?: string;
   };
   size: 'small' | 'medium' | 'large';
+  imagePosition?: string;
 }

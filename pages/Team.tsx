@@ -44,7 +44,7 @@ const Team: React.FC = () => {
                                 src={member.image}
                                 alt={member.name}
                                 className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105"
-                                style={member.id === 2 ? { objectPosition: 'center 20%' } : undefined}
+                                style={{ objectPosition: member.imagePosition || 'center' }}
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent opacity-90" />
                         </div>
