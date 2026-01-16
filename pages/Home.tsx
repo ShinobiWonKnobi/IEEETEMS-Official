@@ -82,15 +82,15 @@ const Home: React.FC = () => {
 
                             <div className="grid grid-cols-3 gap-6 border-t border-white/10 pt-8">
                                 <div>
-                                    <h4 className="text-2xl font-bold text-white mb-1">500+</h4>
+                                    <h4 className="text-2xl font-bold text-white mb-1">100+</h4>
                                     <span className="text-xs font-mono text-gray-500 uppercase">Members</span>
                                 </div>
                                 <div>
-                                    <h4 className="text-2xl font-bold text-white mb-1">50+</h4>
+                                    <h4 className="text-2xl font-bold text-white mb-1">2+</h4>
                                     <span className="text-xs font-mono text-gray-500 uppercase">Events</span>
                                 </div>
                                 <div>
-                                    <h4 className="text-2xl font-bold text-white mb-1">20+</h4>
+                                    <h4 className="text-2xl font-bold text-white mb-1">1+</h4>
                                     <span className="text-xs font-mono text-gray-500 uppercase">Startups</span>
                                 </div>
                             </div>

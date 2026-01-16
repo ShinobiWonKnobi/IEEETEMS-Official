@@ -51,7 +51,7 @@ const App: React.FC = () => {
         <footer className="relative z-10 py-12 border-t border-white/5 mt-20 flex flex-col items-center gap-6">
           <div className="flex gap-6">
             <motion.a
-              href="https://www.linkedin.com/company/ieeetems/posts/?feedView=all"
+              href="https://www.linkedin.com/company/ieee-tems-srm/"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2, color: '#D4AF37' }}

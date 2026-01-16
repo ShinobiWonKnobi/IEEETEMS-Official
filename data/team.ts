@@ -67,7 +67,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     {
         id: 8,
         name: 'Sarathi Chandran R',
-        role: 'Innovation Lead',
+        role: 'Entrepreneurship Lead',
         image: '/assets/members/SARATHI CHANDRAN/IMG-20260115-WA0072.jpg',
         bio: 'Drives innovative projects and initiatives within the chapter.',
         socials: { linkedin: 'https://www.linkedin.com/in/sarathi-chandran-r-10a923323/' },
