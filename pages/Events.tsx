@@ -104,9 +104,20 @@ const Events: React.FC = () => {
                                 <div className="mt-10 flex flex-col sm:flex-row gap-4">
                                     {selectedEvent.status === 'upcoming' ? (
                                         <>
-                                            <button className="bg-gold text-black px-8 py-3 rounded-lg font-bold hover:bg-white transition-colors flex items-center justify-center gap-2 flex-1">
-                                                REGISTER NOW <ArrowRight size={18} />
-                                            </button>
+                                            {selectedEvent.registrationLink ? (
+                                                <a
+                                                    href={selectedEvent.registrationLink}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="bg-gold text-black px-8 py-3 rounded-lg font-bold hover:bg-white transition-colors flex items-center justify-center gap-2 flex-1"
+                                                >
+                                                    REGISTER NOW <ArrowRight size={18} />
+                                                </a>
+                                            ) : (
+                                                <button className="bg-gold text-black px-8 py-3 rounded-lg font-bold hover:bg-white transition-colors flex items-center justify-center gap-2 flex-1">
+                                                    REGISTER NOW <ArrowRight size={18} />
+                                                </button>
+                                            )}
                                             {selectedEvent.googleCalendarUrl && (
                                                 <a
                                                     href={selectedEvent.googleCalendarUrl}

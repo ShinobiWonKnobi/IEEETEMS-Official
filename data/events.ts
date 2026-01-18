@@ -10,7 +10,8 @@ export const EVENTS: Event[] = [
         location: 'SRM IST, Kattankulathur',
         time: '10:00 AM - 04:00 PM',
         fullDescription: 'Pitch Perfect 2.0 is a 2-day immersive program designed to help students identify real-world problems, develop startup ideas, and convert them into structured pitch decks. Key segments include "Numbers That Speak" (Market sizing), "Money Talks" (Finance), a "Validation Sprint" with real-world calls, and the high-pressure "Pitch Roulette" session where teams pitch to peers in a round-robin format.',
-        googleCalendarUrl: 'https://calendar.google.com/calendar/render?action=TEMPLATE&text=Pitch+Perfect+2.0&dates=20260205T043000Z/20260206T103000Z&details=The+ultimate+idea+pitching+competition+by+IEEE+TEMS+SRM.&location=SRM+Institute+of+Science+and+Technology,+Kattankulathur,+Chennai,+Tamil+Nadu+603203'
+        googleCalendarUrl: 'https://calendar.google.com/calendar/render?action=TEMPLATE&text=Pitch+Perfect+2.0&dates=20260205T043000Z/20260206T103000Z&details=The+ultimate+idea+pitching+competition+by+IEEE+TEMS+SRM.&location=SRM+Institute+of+Science+and+Technology,+Kattankulathur,+Chennai,+Tamil+Nadu+603203',
+        registrationLink: 'https://konfhub.com/pitchperfect20'
     },
     {
         id: 2,

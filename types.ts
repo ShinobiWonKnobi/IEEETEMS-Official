@@ -17,6 +17,7 @@ export interface Event {
   time?: string;
   fullDescription?: string;
   googleCalendarUrl?: string;
+  registrationLink?: string;
 }
 
 export interface ChatMessage {
